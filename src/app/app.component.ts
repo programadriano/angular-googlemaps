@@ -10,6 +10,6 @@ export class AppComponent {
   title: string = 'App Component';
 
   constructor(private googleMapsConfig: GoogleMapsConfig) {
-    this.googleMapsConfig.getApiKey('AIzaSyACW0e3e88U4JQwQ3ntCbJefqJzTxIzHGc');
+    this.googleMapsConfig.getApiKey('sua chave');
   }
 }
