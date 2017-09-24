@@ -3,8 +3,12 @@ import { GoogleMapsConfig } from './modules/maps/maps.module';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <app-maps></app-maps>
+  `,
+  styles: [`
+
+  `]
 })
 export class AppComponent {
   title: string = 'App Component';
